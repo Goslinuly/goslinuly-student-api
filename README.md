@@ -1,6 +1,6 @@
 # Goslinuly Student API (Goslinuly, ID gosling)
 
-Spring Boot + PostgreSQL CRUD service for the DevOps midterm of Goslinuly.
+Spring Boot + PostgreSQL CRUD REST API with documentation, built for the DevOps midterm of Goslinuly.
 
 | | |
 |---|---|
