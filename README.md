@@ -35,5 +35,5 @@ curl http://localhost:8037/
   (`PUT /api/students/{id}`) with validation, 404 handling and two tests.
 
 ## CI/CD
-Jenkins job `Goslinuly_Student_API` polls this repository every 2 minutes
+Jenkins job `Goslinuly_Student_API` polls this repository every 2 minutes (SCM polling trigger)
 (`pollSCM('H/2 * * * *')`) and runs Checkout -> Build -> Test -> Docker Build -> Verify.
