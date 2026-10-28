@@ -1,0 +1,46 @@
+==================================================
+ SYSTEM REPORT
+==================================================
+Student      : Goslinuly (Goslinuly, ID gosling)
+Date & time  : 2026-10-28 23:26:52 +05
+Username     : gosling
+OS           : Ubuntu 24.04.5 LTS
+Kernel       : Linux 6.8.0-117-generic
+--- CPU ---
+Architecture:                            aarch64
+CPU(s):                                  4
+Vendor ID:                               Apple
+Model name:                              -
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       984Mi       3.8Gi       948Ki       3.2Gi       6.8Gi
+Swap:             0B          0B          0B
+--- Disk usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          59G   14G   43G  25% /
+--- Available disk space ---
+Available on / : 43G
+
+==================================================
+ SYSTEM REPORT
+==================================================
+Student      : Goslinuly (Goslinuly, ID gosling)
+Date & time  : 2026-10-28 23:26:52 +05
+Username     : gosling
+OS           : Ubuntu 24.04.5 LTS
+Kernel       : Linux 6.8.0-117-generic
+--- CPU ---
+Architecture:                            aarch64
+CPU(s):                                  4
+Vendor ID:                               Apple
+Model name:                              -
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       984Mi       3.8Gi       948Ki       3.2Gi       6.8Gi
+Swap:             0B          0B          0B
+--- Disk usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          59G   14G   43G  25% /
+--- Available disk space ---
+Available on / : 43G
+
