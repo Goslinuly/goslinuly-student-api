@@ -27,4 +27,9 @@ curl http://localhost:8037/
 | GET | `/api/students` | List students |
 | GET | `/api/students/{id}` | Get one student (404 if missing) |
 | POST | `/api/students` | Create student |
+| PUT | `/api/students/{id}` | Update student (404 if missing) |
 | DELETE | `/api/students/{id}` | Delete student |
+
+## Changes by Goslinuly
+- **feature/goslinuly-crud**: implemented the *Update* operation
+  (`PUT /api/students/{id}`) with validation, 404 handling and two tests.
