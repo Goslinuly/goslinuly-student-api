@@ -7,7 +7,7 @@ Spring Boot + PostgreSQL CRUD REST API with documentation, built for the DevOps 
 | Student | Goslinuly |
 | Group | Goslinuly |
 | Student ID | gosling |
-| Image | `goslinuly-student-api:v1.0-gosling` |
+| Image | `goslinuly-student-api:v1.1-gosling` |
 | URL | http://localhost:8037 |
 
 ## Stack

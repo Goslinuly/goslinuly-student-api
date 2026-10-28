@@ -20,7 +20,7 @@ services:
 
   app:
     build: .
-    image: goslinuly-student-api:${APP_TAG:-v1.0-gosling}
+    image: goslinuly-student-api:${APP_TAG:-v1.1-gosling}
     container_name: goslinuly-app
     environment:
       # "db" is the Compose service name, resolved by Docker DNS (not localhost)
