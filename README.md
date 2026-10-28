@@ -1,6 +1,6 @@
 # Goslinuly Student API (Goslinuly, ID gosling)
 
-Spring Boot CRUD application for managing students, built for the DevOps midterm.
+Student management REST API with documentation by Goslinuly.
 
 | | |
 |---|---|
