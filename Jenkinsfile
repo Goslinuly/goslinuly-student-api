@@ -58,7 +58,8 @@ pipeline {
                 sh 'docker image inspect ${IMAGE_NAME}:${IMAGE_TAG} --format "Image {{.RepoTags}} created {{.Created}} size {{.Size}} bytes"'
                 sh 'docker images ${IMAGE_NAME}'
                 withCredentials([string(credentialsId: 'goslinuly-db-password', variable: 'DB_PASSWORD')]) {
-                    sh 'echo "DB password loaded from Jenkins Credentials: $DB_PASSWORD (${#DB_PASSWORD} chars)"'
+                    // сам пароль в лог не печатаем: только факт загрузки и длину
+                    sh 'test -n "$DB_PASSWORD" && echo "DB password loaded from Jenkins Credentials (${#DB_PASSWORD} chars)"'
                 }
                 echo "Image ${IMAGE_NAME}:${IMAGE_TAG} for ${STUDENT_NAME} is ready"
             }
